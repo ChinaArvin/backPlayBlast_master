@@ -1,0 +1,6 @@
+age: '22'
+childen:
+- {relation: son}
+- {relation: daughter}
+name: limengen
+sex: man

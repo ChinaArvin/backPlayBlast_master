@@ -1,0 +1,14 @@
+python "import sys";
+python "import os";
+python "print sys.argv";
+python "sys.path.append(os.path.dirname(sys.argv[-3]))";
+python "import mainFunction";
+//python "reload(mainFunction)";
+
+
+python "mainFunction.TakeScreen(sys.argv[-2],publishPath = sys.argv[-1])";
+
+
+//python "print sys.argv";
+
+
